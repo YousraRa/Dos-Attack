@@ -1,0 +1,124 @@
+/*
+    color: brown;
+    background-color: blueviolet;
+    background-image: url(../image/image.jpg);
+    background-repeat:repeat-x;
+    background-attachment: scroll;
+    background-position :100px 200px;
+    background-size:contain;
+    padding: 10px ;
+    margin: 30px;
+    border-style: double;
+    border-color:red;
+    outline:10px solid yellow;*/
+
+    
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.gtr{
+    background:url(image.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.gtr2{
+    height: 100px;
+    width: 100%;
+    background:rgba(0,0,0, 0.4);
+    
+ 
+}
+
+.gtr3{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+}
+.gtr2 ul
+{
+    float: right;
+    margin-right: 20px;
+}
+
+.gtr2 ul li{
+    list-style: none;
+    margin: 0 8px;
+    display:inline-block;
+    line-height: 60px;
+}
+.gtr2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family:'Roboto',sans-serif;
+    padding: 9px 16px;
+    transition: .4s;
+
+}
+.gtr2 ul li a.active,
+.gtr2 ul li a:hover{
+background: red;
+border-radius: 2px;
+
+
+}
+.gtr .gtr4{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform:translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.gtr4 h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align:center;
+}
+.gtr4 h2{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width:885px;
+    margin-top: 10px;
+    text-align:center;
+}
+.gtr4 .gtr5{
+    margin: 35px 280px;
+
+    
+}
+.gtr5 button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    background: red;
+    border:1px solid royalblue;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+.gtr5 .bts{
+    margin-left: 25px;
+}
+
+h1{
+    width: 100%;
+    position: absolute;
+    color:red;
+
+    top: 40%;
+    text-align: center;
+    font-size:85px;
+    font-family:'franklin Golhic Medium','Arial Narrow'Arial,sans-serif;
+    line-height: 75px;
+   
+
+}
